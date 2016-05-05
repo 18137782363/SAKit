@@ -18,6 +18,9 @@
 /****设置边框****/
 - (void)setBorderWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)color;
 
+/****设置虚线边框****/
+- (void)setDashBorderWithRadius:(CGFloat)radius borderColor:(UIColor *)color;
+
 /****画线****/
 - (void)lineFromTop:(float)top left:(float)left toRight:(float)right lineColor:(UIColor *)color;
 @end

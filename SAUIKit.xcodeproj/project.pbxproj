@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031A06C91CDB316100D716D6 /* UIViewController+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 031A06C81CDB316100D716D6 /* UIViewController+SAExtend.m */; };
 		1961A6681CA952CF001C1B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1961A6671CA952CF001C1B96 /* main.m */; };
 		1961A66B1CA952CF001C1B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1961A66A1CA952CF001C1B96 /* AppDelegate.m */; };
 		1961A66E1CA952CF001C1B96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1961A66D1CA952CF001C1B96 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		031A06C71CDB316100D716D6 /* UIViewController+SAExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SAExtend.h"; sourceTree = "<group>"; };
+		031A06C81CDB316100D716D6 /* UIViewController+SAExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SAExtend.m"; sourceTree = "<group>"; };
 		1961A6631CA952CF001C1B96 /* SAUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1961A6671CA952CF001C1B96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1961A6691CA952CF001C1B96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				2DEB824D1CD8A2C900E90A39 /* SAMutilSelectedItem.m */,
 				2DEB824E1CD8A2C900E90A39 /* SAMutilSelectedView.h */,
 				2DEB824F1CD8A2C900E90A39 /* SAMutilSelectedView.m */,
+				031A06C71CDB316100D716D6 /* UIViewController+SAExtend.h */,
+				031A06C81CDB316100D716D6 /* UIViewController+SAExtend.m */,
 			);
 			path = SAUIKitClass;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031A06C91CDB316100D716D6 /* UIViewController+SAExtend.m in Sources */,
 				1961A66E1CA952CF001C1B96 /* ViewController.m in Sources */,
 				2DEB82501CD8A2C900E90A39 /* SAMutilSelectedItem.m in Sources */,
 				1961A68E1CA95563001C1B96 /* UIColor+SAExtend.m in Sources */,

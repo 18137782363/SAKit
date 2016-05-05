@@ -37,6 +37,18 @@
     self.clipsToBounds = YES;
 }
 
+- (void)setDashBorderWithRadius:(CGFloat)radius borderColor:(UIColor *)color{
+    CAShapeLayer *borderLayer = [CAShapeLayer layer];
+    borderLayer.bounds = CGRectMake(0, 0, self.frame.size.width, self.frame.size.width);
+    borderLayer.position = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
+    borderLayer.path = [UIBezierPath bezierPathWithRoundedRect:borderLayer.bounds cornerRadius:radius].CGPath;
+    borderLayer.lineWidth = 0.5f;
+    borderLayer.lineDashPattern = @[@4,@4];
+    borderLayer.fillColor = [UIColor clearColor].CGColor;
+    borderLayer.strokeColor = color.CGColor;
+    [self.layer addSublayer:borderLayer];
+}
+
 - (void)lineFromTop:(float)top left:(float)left toRight:(float)right lineColor:(UIColor *)color {
     CALayer *layer = [CALayer layer];
     layer.backgroundColor = color.CGColor;
