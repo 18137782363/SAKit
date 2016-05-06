@@ -39,7 +39,7 @@
 
 - (void)setDashBorderWithRadius:(CGFloat)radius borderColor:(UIColor *)color{
     CAShapeLayer *borderLayer = [CAShapeLayer layer];
-    borderLayer.bounds = CGRectMake(0, 0, self.frame.size.width, self.frame.size.width);
+    borderLayer.bounds = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     borderLayer.position = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
     borderLayer.path = [UIBezierPath bezierPathWithRoundedRect:borderLayer.bounds cornerRadius:radius].CGPath;
     borderLayer.lineWidth = 0.5f;
