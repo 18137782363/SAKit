@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SAUIKit.xcodeproj">
+      location = "self:SAKitDemo.xcodeproj">
    </FileRef>
 </Workspace>
