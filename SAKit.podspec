@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SAKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "对UIKit 适当封装"
   s.license      = 'MIT'
   s.author       = { "阿宝" => "iosmobile@iscs.com.cn" }
