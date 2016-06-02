@@ -19,6 +19,7 @@
 		195C56741CFF0CB200F61FB7 /* SAMutilSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566D1CFF0CB200F61FB7 /* SAMutilSelectedView.m */; };
 		195C56751CFF0CB200F61FB7 /* UIView+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566F1CFF0CB200F61FB7 /* UIView+SAExtend.m */; };
 		195C56761CFF0CB200F61FB7 /* UIViewController+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C56711CFF0CB200F61FB7 /* UIViewController+SAExtend.m */; };
+		195D90B21CFFF68F00BF95DA /* SAAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D90B11CFFF68F00BF95DA /* SAAlert.m */; };
 		B63E2A2AB200EB0384D4DDB5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4078803B3A35A0363D9D334 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		195C566F1CFF0CB200F61FB7 /* UIView+SAExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SAExtend.m"; sourceTree = "<group>"; };
 		195C56701CFF0CB200F61FB7 /* UIViewController+SAExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SAExtend.h"; sourceTree = "<group>"; };
 		195C56711CFF0CB200F61FB7 /* UIViewController+SAExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SAExtend.m"; sourceTree = "<group>"; };
+		195D90B01CFFF68F00BF95DA /* SAAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAlert.h; sourceTree = "<group>"; };
+		195D90B11CFFF68F00BF95DA /* SAAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAlert.m; sourceTree = "<group>"; };
 		3A0D95A9153C23D56E3CEC2E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		72AD9C0C473E242396ECC3B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4078803B3A35A0363D9D334 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +151,8 @@
 			children = (
 				195C56681CFF0CB200F61FB7 /* SALandscapeNavigationController.h */,
 				195C56691CFF0CB200F61FB7 /* SALandscapeNavigationController.m */,
+				195D90B01CFFF68F00BF95DA /* SAAlert.h */,
+				195D90B11CFFF68F00BF95DA /* SAAlert.m */,
 				195C566A1CFF0CB200F61FB7 /* SAMutilSelectedItem.h */,
 				195C566B1CFF0CB200F61FB7 /* SAMutilSelectedItem.m */,
 				195C566C1CFF0CB200F61FB7 /* SAMutilSelectedView.h */,
@@ -323,6 +328,7 @@
 				195C56721CFF0CB200F61FB7 /* SALandscapeNavigationController.m in Sources */,
 				195C56761CFF0CB200F61FB7 /* UIViewController+SAExtend.m in Sources */,
 				195C56751CFF0CB200F61FB7 /* UIView+SAExtend.m in Sources */,
+				195D90B21CFFF68F00BF95DA /* SAAlert.m in Sources */,
 				195C56731CFF0CB200F61FB7 /* SAMutilSelectedItem.m in Sources */,
 				195C55DE1CFEFD9F00F61FB7 /* AppDelegate.m in Sources */,
 				195C55DB1CFEFD9F00F61FB7 /* main.m in Sources */,
