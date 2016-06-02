@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.source       = { :git => "https://github.com/ISCS-iOS/SAKit.git", :tag => s.version.to_s}
   s.requires_arc = true
-  s.source_files = 'SAKitDemo/SAKit/*.{h,m}'
+  s.source_files = "SAKit/*.{h,m}"
   s.dependency 'MBProgressHUD', '~> 0.9.2'
 end
