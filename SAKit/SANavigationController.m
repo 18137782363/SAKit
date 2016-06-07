@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return [self.topViewController prefersStatusBarHidden];
+}
 - (BOOL)shouldAutorotate {
     return [self.topViewController shouldAutorotate];
 }
