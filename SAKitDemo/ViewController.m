@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "SANavigationController.h"
+#import "TestViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor greenColor];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    TestViewController *testController = [[TestViewController alloc] init];
+    SANavigationController *navController  =[[SANavigationController alloc] initWithRootViewController:testController];
+    [self presentViewController:navController animated:YES completion:NULL];
 }
 
 - (void)didReceiveMemoryWarning {

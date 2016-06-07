@@ -1,30 +1,22 @@
 //
-//  SALandscapeNavigationController.m
-//  SAUIKit
+//  TestViewController.m
+//  SAKitDemo
 //
-//  Created by ISCS01 on 16/4/11.
-//  Copyright © 2016年 浙江网仓科技有限公司. All rights reserved.
+//  Created by ISCS01 on 16/6/7.
+//  Copyright © 2016年 学宝工作室. All rights reserved.
 //
 
-#import "SALandscapeNavigationController.h"
+#import "TestViewController.h"
 
-@interface SALandscapeNavigationController ()
+@interface TestViewController ()
 
 @end
 
-@implementation SALandscapeNavigationController
+@implementation TestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskLandscape;
-}
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
-    return UIInterfaceOrientationLandscapeLeft | UIInterfaceOrientationLandscapeRight;
 }
 
 - (void)didReceiveMemoryWarning {

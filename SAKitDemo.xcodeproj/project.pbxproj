@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191F0BE71D06CA2E00B445EE /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F0BE61D06CA2E00B445EE /* TestViewController.m */; };
 		195C55DB1CFEFD9F00F61FB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C55DA1CFEFD9F00F61FB7 /* main.m */; };
 		195C55DE1CFEFD9F00F61FB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C55DD1CFEFD9F00F61FB7 /* AppDelegate.m */; };
 		195C55E11CFEFD9F00F61FB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C55E01CFEFD9F00F61FB7 /* ViewController.m */; };
@@ -14,12 +15,12 @@
 		195C55E61CFEFD9F00F61FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195C55E51CFEFD9F00F61FB7 /* Assets.xcassets */; };
 		195C55E91CFEFD9F00F61FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195C55E71CFEFD9F00F61FB7 /* LaunchScreen.storyboard */; };
 		195C55F41CFEFD9F00F61FB7 /* SAKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C55F31CFEFD9F00F61FB7 /* SAKitDemoTests.m */; };
-		195C56721CFF0CB200F61FB7 /* SALandscapeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C56691CFF0CB200F61FB7 /* SALandscapeNavigationController.m */; };
 		195C56731CFF0CB200F61FB7 /* SAMutilSelectedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566B1CFF0CB200F61FB7 /* SAMutilSelectedItem.m */; };
 		195C56741CFF0CB200F61FB7 /* SAMutilSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566D1CFF0CB200F61FB7 /* SAMutilSelectedView.m */; };
 		195C56751CFF0CB200F61FB7 /* UIView+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566F1CFF0CB200F61FB7 /* UIView+SAExtend.m */; };
 		195C56761CFF0CB200F61FB7 /* UIViewController+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C56711CFF0CB200F61FB7 /* UIViewController+SAExtend.m */; };
 		195D90B21CFFF68F00BF95DA /* SAAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D90B11CFFF68F00BF95DA /* SAAlert.m */; };
+		198DABBE1D06F18C000BDEFF /* SANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198DABBD1D06F18C000BDEFF /* SANavigationController.m */; };
 		B63E2A2AB200EB0384D4DDB5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4078803B3A35A0363D9D334 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191F0BE51D06CA2E00B445EE /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		191F0BE61D06CA2E00B445EE /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		195C55D61CFEFD9F00F61FB7 /* SAKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195C55DA1CFEFD9F00F61FB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		195C55DC1CFEFD9F00F61FB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,8 +50,6 @@
 		195C55EF1CFEFD9F00F61FB7 /* SAKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		195C55F31CFEFD9F00F61FB7 /* SAKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAKitDemoTests.m; sourceTree = "<group>"; };
 		195C55F51CFEFD9F00F61FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		195C56681CFF0CB200F61FB7 /* SALandscapeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SALandscapeNavigationController.h; sourceTree = "<group>"; };
-		195C56691CFF0CB200F61FB7 /* SALandscapeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SALandscapeNavigationController.m; sourceTree = "<group>"; };
 		195C566A1CFF0CB200F61FB7 /* SAMutilSelectedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMutilSelectedItem.h; sourceTree = "<group>"; };
 		195C566B1CFF0CB200F61FB7 /* SAMutilSelectedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMutilSelectedItem.m; sourceTree = "<group>"; };
 		195C566C1CFF0CB200F61FB7 /* SAMutilSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMutilSelectedView.h; sourceTree = "<group>"; };
@@ -59,6 +60,8 @@
 		195C56711CFF0CB200F61FB7 /* UIViewController+SAExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SAExtend.m"; sourceTree = "<group>"; };
 		195D90B01CFFF68F00BF95DA /* SAAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAlert.h; sourceTree = "<group>"; };
 		195D90B11CFFF68F00BF95DA /* SAAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAlert.m; sourceTree = "<group>"; };
+		198DABBC1D06F18C000BDEFF /* SANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SANavigationController.h; sourceTree = "<group>"; };
+		198DABBD1D06F18C000BDEFF /* SANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SANavigationController.m; sourceTree = "<group>"; };
 		3A0D95A9153C23D56E3CEC2E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		72AD9C0C473E242396ECC3B1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4078803B3A35A0363D9D334 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +123,8 @@
 				195C55DD1CFEFD9F00F61FB7 /* AppDelegate.m */,
 				195C55DF1CFEFD9F00F61FB7 /* ViewController.h */,
 				195C55E01CFEFD9F00F61FB7 /* ViewController.m */,
+				191F0BE51D06CA2E00B445EE /* TestViewController.h */,
+				191F0BE61D06CA2E00B445EE /* TestViewController.m */,
 				195C55E21CFEFD9F00F61FB7 /* Main.storyboard */,
 				195C55E51CFEFD9F00F61FB7 /* Assets.xcassets */,
 				195C55E71CFEFD9F00F61FB7 /* LaunchScreen.storyboard */,
@@ -149,8 +154,8 @@
 		195C56671CFF0CB200F61FB7 /* SAKit */ = {
 			isa = PBXGroup;
 			children = (
-				195C56681CFF0CB200F61FB7 /* SALandscapeNavigationController.h */,
-				195C56691CFF0CB200F61FB7 /* SALandscapeNavigationController.m */,
+				198DABBC1D06F18C000BDEFF /* SANavigationController.h */,
+				198DABBD1D06F18C000BDEFF /* SANavigationController.m */,
 				195D90B01CFFF68F00BF95DA /* SAAlert.h */,
 				195D90B11CFFF68F00BF95DA /* SAAlert.m */,
 				195C566A1CFF0CB200F61FB7 /* SAMutilSelectedItem.h */,
@@ -225,6 +230,7 @@
 				TargetAttributes = {
 					195C55D51CFEFD9F00F61FB7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 97PZ2G377V;
 					};
 					195C55EE1CFEFD9F00F61FB7 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -325,9 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				195C55E11CFEFD9F00F61FB7 /* ViewController.m in Sources */,
-				195C56721CFF0CB200F61FB7 /* SALandscapeNavigationController.m in Sources */,
 				195C56761CFF0CB200F61FB7 /* UIViewController+SAExtend.m in Sources */,
 				195C56751CFF0CB200F61FB7 /* UIView+SAExtend.m in Sources */,
+				198DABBE1D06F18C000BDEFF /* SANavigationController.m in Sources */,
+				191F0BE71D06CA2E00B445EE /* TestViewController.m in Sources */,
 				195D90B21CFFF68F00BF95DA /* SAAlert.m in Sources */,
 				195C56731CFF0CB200F61FB7 /* SAMutilSelectedItem.m in Sources */,
 				195C55DE1CFEFD9F00F61FB7 /* AppDelegate.m in Sources */,
@@ -461,11 +468,14 @@
 			baseConfigurationReference = 72AD9C0C473E242396ECC3B1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SAKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuebao.SAKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -474,11 +484,14 @@
 			baseConfigurationReference = 3A0D95A9153C23D56E3CEC2E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SAKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xuebao.SAKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
