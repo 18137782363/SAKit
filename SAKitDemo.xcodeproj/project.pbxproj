@@ -17,31 +17,31 @@
 		195C55F41CFEFD9F00F61FB7 /* SAKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C55F31CFEFD9F00F61FB7 /* SAKitDemoTests.m */; };
 		195C56731CFF0CB200F61FB7 /* SAMutilSelectedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566B1CFF0CB200F61FB7 /* SAMutilSelectedItem.m */; };
 		195C56741CFF0CB200F61FB7 /* SAMutilSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566D1CFF0CB200F61FB7 /* SAMutilSelectedView.m */; };
-		195C56751CFF0CB200F61FB7 /* UIView+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C566F1CFF0CB200F61FB7 /* UIView+SAExtend.m */; };
 		195C56761CFF0CB200F61FB7 /* UIViewController+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 195C56711CFF0CB200F61FB7 /* UIViewController+SAExtend.m */; };
 		195D90B21CFFF68F00BF95DA /* SAAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D90B11CFFF68F00BF95DA /* SAAlert.m */; };
 		198DABBE1D06F18C000BDEFF /* SANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198DABBD1D06F18C000BDEFF /* SANavigationController.m */; };
 		3527487B1D803CBE00906993 /* SAFontKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527487A1D803CBE00906993 /* SAFontKit.m */; };
 		8581BDE2901CAEFCB7668CE3 /* libPods-SAKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD9502FBC5354E4F863FF1E /* libPods-SAKitDemo.a */; };
 		902E6B2E1D7902710011FFA5 /* UIScrollView+NextRespond.m in Sources */ = {isa = PBXBuildFile; fileRef = 902E6B2D1D7902710011FFA5 /* UIScrollView+NextRespond.m */; };
-		905612F91D7FE75800D5EF2D /* SAScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 905612F81D7FE75800D5EF2D /* SAScanCodeView.m */; };
-		9056133F1D7FF6C300D5EF2D /* SACardScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9056133E1D7FF6C300D5EF2D /* SACardScanCodeView.m */; };
 		DA3C540E1DD1B2A100C24C0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C540D1DD1B2A100C24C0D /* RootViewController.m */; };
 		DA4505EA1D91227600634F95 /* SACardSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4505E91D91227600634F95 /* SACardSingleView.m */; };
 		DA5AEC961D77B1690006F261 /* CALayer+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AEC931D77B1690006F261 /* CALayer+SAExtend.m */; };
 		DA5AEC971D77B1690006F261 /* SAProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AEC951D77B1690006F261 /* SAProgressHUD.m */; };
 		DA5AEC9B1D77B2B10006F261 /* SACardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AEC9A1D77B2B10006F261 /* SACardView.m */; };
-		DA5AECFF1D7975B80006F261 /* SABubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AECF21D7975B80006F261 /* SABubbleView.m */; };
-		DA5AED011D7975B80006F261 /* SACardAssistView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AECF61D7975B80006F261 /* SACardAssistView.m */; };
-		DA5AED021D7975B80006F261 /* SACardCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AECF81D7975B80006F261 /* SACardCollectionViewLayout.m */; };
-		DA5AED051D7975B80006F261 /* SAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5AECFE1D7975B80006F261 /* SAPageControl.m */; };
+		DA6DE5D41DD49FC000777C1C /* SACardAssistKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5C51DD49FC000777C1C /* SACardAssistKit.m */; };
+		DA6DE5D51DD49FC000777C1C /* SACardInfoBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5C71DD49FC000777C1C /* SACardInfoBottomView.m */; };
+		DA6DE5D61DD49FC000777C1C /* SACardInfoCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5C91DD49FC000777C1C /* SACardInfoCollectionViewLayout.m */; };
+		DA6DE5D71DD49FC000777C1C /* SACardInfoTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5CB1DD49FC000777C1C /* SACardInfoTopView.m */; };
+		DA6DE5D81DD49FC000777C1C /* SACardInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5CD1DD49FC000777C1C /* SACardInfoView.m */; };
+		DA6DE5D91DD49FC000777C1C /* SACardInfoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5CF1DD49FC000777C1C /* SACardInfoViewManager.m */; };
+		DA6DE5DA1DD49FC000777C1C /* SAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5D11DD49FC000777C1C /* SAPageControl.m */; };
+		DA6DE5DB1DD49FC000777C1C /* UIView+SAExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5D31DD49FC000777C1C /* UIView+SAExtend.m */; };
+		DA6DE5E71DD49FD200777C1C /* SABubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5DE1DD49FD200777C1C /* SABubbleView.m */; };
+		DA6DE5E81DD49FD200777C1C /* SACardAssistView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5E01DD49FD200777C1C /* SACardAssistView.m */; };
+		DA6DE5E91DD49FD200777C1C /* SACardCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5E21DD49FD200777C1C /* SACardCollectionViewLayout.m */; };
+		DA6DE5EA1DD49FD200777C1C /* SACardScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5E41DD49FD200777C1C /* SACardScanCodeView.m */; };
+		DA6DE5EB1DD49FD200777C1C /* SAScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6DE5E61DD49FD200777C1C /* SAScanCodeView.m */; };
 		DAB062571DC44A5800BB3AF3 /* SAMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB062561DC44A5800BB3AF3 /* SAMenuView.m */; };
-		DAD385201DD4873900C21BFD /* SACardAssistKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD3851F1DD4873900C21BFD /* SACardAssistKit.m */; };
-		DAD3852F1DD487C500C21BFD /* SACardInfoBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD385251DD487C500C21BFD /* SACardInfoBottomView.m */; };
-		DAD385301DD487C500C21BFD /* SACardInfoCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD385271DD487C500C21BFD /* SACardInfoCollectionViewLayout.m */; };
-		DAD385311DD487C500C21BFD /* SACardInfoTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD385291DD487C500C21BFD /* SACardInfoTopView.m */; };
-		DAD385321DD487C500C21BFD /* SACardInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD3852B1DD487C500C21BFD /* SACardInfoView.m */; };
-		DAD385331DD487C500C21BFD /* SACardInfoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD3852D1DD487C500C21BFD /* SACardInfoViewManager.m */; };
 		DAF22B901DCF031B0008A81F /* SATransitionReversibleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF22B8F1DCF031B0008A81F /* SATransitionReversibleAnimation.m */; };
 		DAF22B961DCF12C60008A81F /* SATransitionEdgePanInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF22B951DCF12C60008A81F /* SATransitionEdgePanInteraction.m */; };
 /* End PBXBuildFile section */
@@ -76,8 +76,6 @@
 		195C566B1CFF0CB200F61FB7 /* SAMutilSelectedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMutilSelectedItem.m; sourceTree = "<group>"; };
 		195C566C1CFF0CB200F61FB7 /* SAMutilSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMutilSelectedView.h; sourceTree = "<group>"; };
 		195C566D1CFF0CB200F61FB7 /* SAMutilSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMutilSelectedView.m; sourceTree = "<group>"; };
-		195C566E1CFF0CB200F61FB7 /* UIView+SAExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SAExtend.h"; sourceTree = "<group>"; };
-		195C566F1CFF0CB200F61FB7 /* UIView+SAExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SAExtend.m"; sourceTree = "<group>"; };
 		195C56701CFF0CB200F61FB7 /* UIViewController+SAExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SAExtend.h"; sourceTree = "<group>"; };
 		195C56711CFF0CB200F61FB7 /* UIViewController+SAExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SAExtend.m"; sourceTree = "<group>"; };
 		195D90B01CFFF68F00BF95DA /* SAAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAlert.h; sourceTree = "<group>"; };
@@ -88,10 +86,6 @@
 		3527487A1D803CBE00906993 /* SAFontKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFontKit.m; sourceTree = "<group>"; };
 		902E6B2C1D7902710011FFA5 /* UIScrollView+NextRespond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+NextRespond.h"; sourceTree = "<group>"; };
 		902E6B2D1D7902710011FFA5 /* UIScrollView+NextRespond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+NextRespond.m"; sourceTree = "<group>"; };
-		905612F71D7FE75800D5EF2D /* SAScanCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAScanCodeView.h; sourceTree = "<group>"; };
-		905612F81D7FE75800D5EF2D /* SAScanCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAScanCodeView.m; sourceTree = "<group>"; };
-		9056133D1D7FF6C300D5EF2D /* SACardScanCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardScanCodeView.h; sourceTree = "<group>"; };
-		9056133E1D7FF6C300D5EF2D /* SACardScanCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardScanCodeView.m; sourceTree = "<group>"; };
 		9FD9502FBC5354E4F863FF1E /* libPods-SAKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7BD32956DFDB632A651DAA /* Pods-SAKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAKitDemo/Pods-SAKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DA3C540C1DD1B2A100C24C0D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -104,28 +98,34 @@
 		DA5AEC951D77B1690006F261 /* SAProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAProgressHUD.m; sourceTree = "<group>"; };
 		DA5AEC991D77B2B10006F261 /* SACardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardView.h; sourceTree = "<group>"; };
 		DA5AEC9A1D77B2B10006F261 /* SACardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardView.m; sourceTree = "<group>"; };
-		DA5AECF11D7975B80006F261 /* SABubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABubbleView.h; sourceTree = "<group>"; };
-		DA5AECF21D7975B80006F261 /* SABubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SABubbleView.m; sourceTree = "<group>"; };
-		DA5AECF51D7975B80006F261 /* SACardAssistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardAssistView.h; sourceTree = "<group>"; };
-		DA5AECF61D7975B80006F261 /* SACardAssistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardAssistView.m; sourceTree = "<group>"; };
-		DA5AECF71D7975B80006F261 /* SACardCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardCollectionViewLayout.h; sourceTree = "<group>"; };
-		DA5AECF81D7975B80006F261 /* SACardCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardCollectionViewLayout.m; sourceTree = "<group>"; };
-		DA5AECFD1D7975B80006F261 /* SAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPageControl.h; sourceTree = "<group>"; };
-		DA5AECFE1D7975B80006F261 /* SAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPageControl.m; sourceTree = "<group>"; };
+		DA6DE5C41DD49FC000777C1C /* SACardAssistKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardAssistKit.h; sourceTree = "<group>"; };
+		DA6DE5C51DD49FC000777C1C /* SACardAssistKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardAssistKit.m; sourceTree = "<group>"; };
+		DA6DE5C61DD49FC000777C1C /* SACardInfoBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoBottomView.h; sourceTree = "<group>"; };
+		DA6DE5C71DD49FC000777C1C /* SACardInfoBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoBottomView.m; sourceTree = "<group>"; };
+		DA6DE5C81DD49FC000777C1C /* SACardInfoCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoCollectionViewLayout.h; sourceTree = "<group>"; };
+		DA6DE5C91DD49FC000777C1C /* SACardInfoCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoCollectionViewLayout.m; sourceTree = "<group>"; };
+		DA6DE5CA1DD49FC000777C1C /* SACardInfoTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoTopView.h; sourceTree = "<group>"; };
+		DA6DE5CB1DD49FC000777C1C /* SACardInfoTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoTopView.m; sourceTree = "<group>"; };
+		DA6DE5CC1DD49FC000777C1C /* SACardInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoView.h; sourceTree = "<group>"; };
+		DA6DE5CD1DD49FC000777C1C /* SACardInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoView.m; sourceTree = "<group>"; };
+		DA6DE5CE1DD49FC000777C1C /* SACardInfoViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoViewManager.h; sourceTree = "<group>"; };
+		DA6DE5CF1DD49FC000777C1C /* SACardInfoViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoViewManager.m; sourceTree = "<group>"; };
+		DA6DE5D01DD49FC000777C1C /* SAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPageControl.h; sourceTree = "<group>"; };
+		DA6DE5D11DD49FC000777C1C /* SAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPageControl.m; sourceTree = "<group>"; };
+		DA6DE5D21DD49FC000777C1C /* UIView+SAExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SAExtend.h"; sourceTree = "<group>"; };
+		DA6DE5D31DD49FC000777C1C /* UIView+SAExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SAExtend.m"; sourceTree = "<group>"; };
+		DA6DE5DD1DD49FD200777C1C /* SABubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABubbleView.h; sourceTree = "<group>"; };
+		DA6DE5DE1DD49FD200777C1C /* SABubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SABubbleView.m; sourceTree = "<group>"; };
+		DA6DE5DF1DD49FD200777C1C /* SACardAssistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardAssistView.h; sourceTree = "<group>"; };
+		DA6DE5E01DD49FD200777C1C /* SACardAssistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardAssistView.m; sourceTree = "<group>"; };
+		DA6DE5E11DD49FD200777C1C /* SACardCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardCollectionViewLayout.h; sourceTree = "<group>"; };
+		DA6DE5E21DD49FD200777C1C /* SACardCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardCollectionViewLayout.m; sourceTree = "<group>"; };
+		DA6DE5E31DD49FD200777C1C /* SACardScanCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardScanCodeView.h; sourceTree = "<group>"; };
+		DA6DE5E41DD49FD200777C1C /* SACardScanCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardScanCodeView.m; sourceTree = "<group>"; };
+		DA6DE5E51DD49FD200777C1C /* SAScanCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAScanCodeView.h; sourceTree = "<group>"; };
+		DA6DE5E61DD49FD200777C1C /* SAScanCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAScanCodeView.m; sourceTree = "<group>"; };
 		DAB062551DC44A5800BB3AF3 /* SAMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuView.h; sourceTree = "<group>"; };
 		DAB062561DC44A5800BB3AF3 /* SAMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuView.m; sourceTree = "<group>"; };
-		DAD3851E1DD4873900C21BFD /* SACardAssistKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardAssistKit.h; sourceTree = "<group>"; };
-		DAD3851F1DD4873900C21BFD /* SACardAssistKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardAssistKit.m; sourceTree = "<group>"; };
-		DAD385241DD487C500C21BFD /* SACardInfoBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoBottomView.h; sourceTree = "<group>"; };
-		DAD385251DD487C500C21BFD /* SACardInfoBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoBottomView.m; sourceTree = "<group>"; };
-		DAD385261DD487C500C21BFD /* SACardInfoCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoCollectionViewLayout.h; sourceTree = "<group>"; };
-		DAD385271DD487C500C21BFD /* SACardInfoCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoCollectionViewLayout.m; sourceTree = "<group>"; };
-		DAD385281DD487C500C21BFD /* SACardInfoTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoTopView.h; sourceTree = "<group>"; };
-		DAD385291DD487C500C21BFD /* SACardInfoTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoTopView.m; sourceTree = "<group>"; };
-		DAD3852A1DD487C500C21BFD /* SACardInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoView.h; sourceTree = "<group>"; };
-		DAD3852B1DD487C500C21BFD /* SACardInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoView.m; sourceTree = "<group>"; };
-		DAD3852C1DD487C500C21BFD /* SACardInfoViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACardInfoViewManager.h; sourceTree = "<group>"; };
-		DAD3852D1DD487C500C21BFD /* SACardInfoViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SACardInfoViewManager.m; sourceTree = "<group>"; };
 		DAF22B8E1DCF031B0008A81F /* SATransitionReversibleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATransitionReversibleAnimation.h; sourceTree = "<group>"; };
 		DAF22B8F1DCF031B0008A81F /* SATransitionReversibleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATransitionReversibleAnimation.m; sourceTree = "<group>"; };
 		DAF22B941DCF12C50008A81F /* SATransitionEdgePanInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATransitionEdgePanInteraction.h; sourceTree = "<group>"; };
@@ -213,13 +213,11 @@
 		195C56671CFF0CB200F61FB7 /* SAKit */ = {
 			isa = PBXGroup;
 			children = (
-				DAD385211DD487BD00C21BFD /* SACardInfoView */,
+				DA6DE5DC1DD49FD200777C1C /* SAAssistView */,
 				DAF22B8D1DCF01F00008A81F /* SATransition */,
 				DA5AEC981D77B24C0006F261 /* SACardView */,
 				DA5AEC921D77B1690006F261 /* CALayer+SAExtend.h */,
 				DA5AEC931D77B1690006F261 /* CALayer+SAExtend.m */,
-				DAD3851E1DD4873900C21BFD /* SACardAssistKit.h */,
-				DAD3851F1DD4873900C21BFD /* SACardAssistKit.m */,
 				DAB062551DC44A5800BB3AF3 /* SAMenuView.h */,
 				DAB062561DC44A5800BB3AF3 /* SAMenuView.m */,
 				DA5AEC941D77B1690006F261 /* SAProgressHUD.h */,
@@ -234,8 +232,6 @@
 				195C566B1CFF0CB200F61FB7 /* SAMutilSelectedItem.m */,
 				195C566C1CFF0CB200F61FB7 /* SAMutilSelectedView.h */,
 				195C566D1CFF0CB200F61FB7 /* SAMutilSelectedView.m */,
-				195C566E1CFF0CB200F61FB7 /* UIView+SAExtend.h */,
-				195C566F1CFF0CB200F61FB7 /* UIView+SAExtend.m */,
 				195C56701CFF0CB200F61FB7 /* UIViewController+SAExtend.h */,
 				195C56711CFF0CB200F61FB7 /* UIViewController+SAExtend.m */,
 				902E6B2C1D7902710011FFA5 /* UIScrollView+NextRespond.h */,
@@ -264,7 +260,22 @@
 		DA5AEC981D77B24C0006F261 /* SACardView */ = {
 			isa = PBXGroup;
 			children = (
-				DA5AECF01D7975A10006F261 /* SAAssistView */,
+				DA6DE5C41DD49FC000777C1C /* SACardAssistKit.h */,
+				DA6DE5C51DD49FC000777C1C /* SACardAssistKit.m */,
+				DA6DE5C61DD49FC000777C1C /* SACardInfoBottomView.h */,
+				DA6DE5C71DD49FC000777C1C /* SACardInfoBottomView.m */,
+				DA6DE5C81DD49FC000777C1C /* SACardInfoCollectionViewLayout.h */,
+				DA6DE5C91DD49FC000777C1C /* SACardInfoCollectionViewLayout.m */,
+				DA6DE5CA1DD49FC000777C1C /* SACardInfoTopView.h */,
+				DA6DE5CB1DD49FC000777C1C /* SACardInfoTopView.m */,
+				DA6DE5CC1DD49FC000777C1C /* SACardInfoView.h */,
+				DA6DE5CD1DD49FC000777C1C /* SACardInfoView.m */,
+				DA6DE5CE1DD49FC000777C1C /* SACardInfoViewManager.h */,
+				DA6DE5CF1DD49FC000777C1C /* SACardInfoViewManager.m */,
+				DA6DE5D01DD49FC000777C1C /* SAPageControl.h */,
+				DA6DE5D11DD49FC000777C1C /* SAPageControl.m */,
+				DA6DE5D21DD49FC000777C1C /* UIView+SAExtend.h */,
+				DA6DE5D31DD49FC000777C1C /* UIView+SAExtend.m */,
 				DA5AEC991D77B2B10006F261 /* SACardView.h */,
 				DA5AEC9A1D77B2B10006F261 /* SACardView.m */,
 				DA4505E81D91227600634F95 /* SACardSingleView.h */,
@@ -273,40 +284,21 @@
 			path = SACardView;
 			sourceTree = "<group>";
 		};
-		DA5AECF01D7975A10006F261 /* SAAssistView */ = {
+		DA6DE5DC1DD49FD200777C1C /* SAAssistView */ = {
 			isa = PBXGroup;
 			children = (
-				DA5AECF11D7975B80006F261 /* SABubbleView.h */,
-				DA5AECF21D7975B80006F261 /* SABubbleView.m */,
-				DA5AECFD1D7975B80006F261 /* SAPageControl.h */,
-				DA5AECFE1D7975B80006F261 /* SAPageControl.m */,
-				DA5AECF51D7975B80006F261 /* SACardAssistView.h */,
-				DA5AECF61D7975B80006F261 /* SACardAssistView.m */,
-				DA5AECF71D7975B80006F261 /* SACardCollectionViewLayout.h */,
-				DA5AECF81D7975B80006F261 /* SACardCollectionViewLayout.m */,
-				905612F71D7FE75800D5EF2D /* SAScanCodeView.h */,
-				905612F81D7FE75800D5EF2D /* SAScanCodeView.m */,
-				9056133D1D7FF6C300D5EF2D /* SACardScanCodeView.h */,
-				9056133E1D7FF6C300D5EF2D /* SACardScanCodeView.m */,
+				DA6DE5DD1DD49FD200777C1C /* SABubbleView.h */,
+				DA6DE5DE1DD49FD200777C1C /* SABubbleView.m */,
+				DA6DE5DF1DD49FD200777C1C /* SACardAssistView.h */,
+				DA6DE5E01DD49FD200777C1C /* SACardAssistView.m */,
+				DA6DE5E11DD49FD200777C1C /* SACardCollectionViewLayout.h */,
+				DA6DE5E21DD49FD200777C1C /* SACardCollectionViewLayout.m */,
+				DA6DE5E31DD49FD200777C1C /* SACardScanCodeView.h */,
+				DA6DE5E41DD49FD200777C1C /* SACardScanCodeView.m */,
+				DA6DE5E51DD49FD200777C1C /* SAScanCodeView.h */,
+				DA6DE5E61DD49FD200777C1C /* SAScanCodeView.m */,
 			);
 			path = SAAssistView;
-			sourceTree = "<group>";
-		};
-		DAD385211DD487BD00C21BFD /* SACardInfoView */ = {
-			isa = PBXGroup;
-			children = (
-				DAD385241DD487C500C21BFD /* SACardInfoBottomView.h */,
-				DAD385251DD487C500C21BFD /* SACardInfoBottomView.m */,
-				DAD385261DD487C500C21BFD /* SACardInfoCollectionViewLayout.h */,
-				DAD385271DD487C500C21BFD /* SACardInfoCollectionViewLayout.m */,
-				DAD385281DD487C500C21BFD /* SACardInfoTopView.h */,
-				DAD385291DD487C500C21BFD /* SACardInfoTopView.m */,
-				DAD3852A1DD487C500C21BFD /* SACardInfoView.h */,
-				DAD3852B1DD487C500C21BFD /* SACardInfoView.m */,
-				DAD3852C1DD487C500C21BFD /* SACardInfoViewManager.h */,
-				DAD3852D1DD487C500C21BFD /* SACardInfoViewManager.m */,
-			);
-			path = SACardInfoView;
 			sourceTree = "<group>";
 		};
 		DAF22B8D1DCF01F00008A81F /* SATransition */ = {
@@ -493,38 +485,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD385321DD487C500C21BFD /* SACardInfoView.m in Sources */,
-				DA5AED051D7975B80006F261 /* SAPageControl.m in Sources */,
+				DA6DE5D81DD49FC000777C1C /* SACardInfoView.m in Sources */,
 				195C55E11CFEFD9F00F61FB7 /* ViewController.m in Sources */,
 				DAF22B901DCF031B0008A81F /* SATransitionReversibleAnimation.m in Sources */,
 				195C56761CFF0CB200F61FB7 /* UIViewController+SAExtend.m in Sources */,
 				DA5AEC961D77B1690006F261 /* CALayer+SAExtend.m in Sources */,
-				195C56751CFF0CB200F61FB7 /* UIView+SAExtend.m in Sources */,
 				902E6B2E1D7902710011FFA5 /* UIScrollView+NextRespond.m in Sources */,
-				DA5AECFF1D7975B80006F261 /* SABubbleView.m in Sources */,
-				DA5AED021D7975B80006F261 /* SACardCollectionViewLayout.m in Sources */,
 				DA3C540E1DD1B2A100C24C0D /* RootViewController.m in Sources */,
 				DA5AEC971D77B1690006F261 /* SAProgressHUD.m in Sources */,
 				198DABBE1D06F18C000BDEFF /* SANavigationController.m in Sources */,
+				DA6DE5D61DD49FC000777C1C /* SACardInfoCollectionViewLayout.m in Sources */,
 				191F0BE71D06CA2E00B445EE /* TestViewController.m in Sources */,
 				195D90B21CFFF68F00BF95DA /* SAAlert.m in Sources */,
-				DAD385301DD487C500C21BFD /* SACardInfoCollectionViewLayout.m in Sources */,
-				DAD385331DD487C500C21BFD /* SACardInfoViewManager.m in Sources */,
+				DA6DE5E81DD49FD200777C1C /* SACardAssistView.m in Sources */,
+				DA6DE5DA1DD49FC000777C1C /* SAPageControl.m in Sources */,
+				DA6DE5D51DD49FC000777C1C /* SACardInfoBottomView.m in Sources */,
 				DA4505EA1D91227600634F95 /* SACardSingleView.m in Sources */,
 				3527487B1D803CBE00906993 /* SAFontKit.m in Sources */,
+				DA6DE5E71DD49FD200777C1C /* SABubbleView.m in Sources */,
 				DAB062571DC44A5800BB3AF3 /* SAMenuView.m in Sources */,
+				DA6DE5D41DD49FC000777C1C /* SACardAssistKit.m in Sources */,
+				DA6DE5E91DD49FD200777C1C /* SACardCollectionViewLayout.m in Sources */,
 				195C56731CFF0CB200F61FB7 /* SAMutilSelectedItem.m in Sources */,
-				DAD385201DD4873900C21BFD /* SACardAssistKit.m in Sources */,
-				9056133F1D7FF6C300D5EF2D /* SACardScanCodeView.m in Sources */,
+				DA6DE5EA1DD49FD200777C1C /* SACardScanCodeView.m in Sources */,
 				DA5AEC9B1D77B2B10006F261 /* SACardView.m in Sources */,
-				DAD3852F1DD487C500C21BFD /* SACardInfoBottomView.m in Sources */,
 				DAF22B961DCF12C60008A81F /* SATransitionEdgePanInteraction.m in Sources */,
 				195C55DE1CFEFD9F00F61FB7 /* AppDelegate.m in Sources */,
-				905612F91D7FE75800D5EF2D /* SAScanCodeView.m in Sources */,
+				DA6DE5EB1DD49FD200777C1C /* SAScanCodeView.m in Sources */,
+				DA6DE5DB1DD49FC000777C1C /* UIView+SAExtend.m in Sources */,
 				195C55DB1CFEFD9F00F61FB7 /* main.m in Sources */,
-				DA5AED011D7975B80006F261 /* SACardAssistView.m in Sources */,
 				195C56741CFF0CB200F61FB7 /* SAMutilSelectedView.m in Sources */,
-				DAD385311DD487C500C21BFD /* SACardInfoTopView.m in Sources */,
+				DA6DE5D71DD49FC000777C1C /* SACardInfoTopView.m in Sources */,
+				DA6DE5D91DD49FC000777C1C /* SACardInfoViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

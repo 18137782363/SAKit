@@ -8,7 +8,7 @@
 
 #import "SAPageControl.h"
 #import "SABubbleView.h"
-#import <Masonry.h>
+#import <Masonry/Masonry.h>
 static CGFloat kCurrentLabWidth = 20.0;
 
 @interface SAPageControl ()

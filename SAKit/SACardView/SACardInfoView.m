@@ -133,7 +133,7 @@ static CGFloat const kBottomSpace = 7.0;
     
     if (scrollView.tag == kVertScrollViewTag&& scrollView.isDragging && !scrollView.isDecelerating) {
         if (scrollView.contentOffset.y < -kZoomStartOffset) {
-            CGFloat progress = (fabs(scrollView.contentOffset.y) - kZoomStartOffset) / (kZoomEndOffset - kZoomStartOffset);
+//            CGFloat progress = (fabs(scrollView.contentOffset.y) - kZoomStartOffset) / (kZoomEndOffset - kZoomStartOffset);
             
             //            [self.manager updateTopViewUIWithProgress:progress];
         }else if (scrollView.contentOffset.y > kZoomStartOffset) {
@@ -305,7 +305,7 @@ static CGFloat const kBottomSpace = 7.0;
         currentPage = currentPage<0?0:currentPage;
         [self.collectionView setContentOffset:CGPointMake(currentPage*CGRectGetWidth(self.frame), 0) animated:animation];
     }
-    NSLog(@"pageCurrent--->%ld",currentPage);
+//    NSLog(@"pageCurrent--->%ld",currentPage);
     _currentPage = currentPage;
 }
 

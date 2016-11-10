@@ -8,7 +8,6 @@
 
 #import "SACardAssistView.h"
 #import <Masonry/Masonry.h>
-#import "SACardAssistKit.h"
 
 static NSUInteger kItemButtonBaseTag = 400;
 

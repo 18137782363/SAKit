@@ -22,10 +22,6 @@ static NSInteger const kScanItemTag     = 101;
 static NSInteger const kSortItemTag     = 106;
 static NSInteger const kRefreshItemTag  = 107;
 
-
-#define kVerScale [SACardAssistKit cardFrame].height/517.5
-#define kHorScale [SACardAssistKit cardFrame].width/345.0
-
 static CGFloat kItemHeight = 34.0;
 static CGFloat kAnimationDuration = 0.25;
 
@@ -154,7 +150,7 @@ static CGFloat kAnimationDuration = 0.25;
         button.clipsToBounds = YES;
         button.alpha = 0;
         button.layer.cornerRadius = kItemHeight/2.0;
-        //            button.frame = CGRectMake(i*(20*kHorScale+kItemHeight), CGRectGetMinY(self.homeItem.frame), kItemHeight, kItemHeight);
+        //            button.frame = CGRectMake(i*(20*[SACardAssistKit cardFrame].width/345.0+kItemHeight), CGRectGetMinY(self.homeItem.frame), kItemHeight, kItemHeight);
         if (self.itemNormalImageArray.count > i) {
             [button setImage:self.itemNormalImageArray[i] forState:UIControlStateNormal];
         }
@@ -175,7 +171,7 @@ static CGFloat kAnimationDuration = 0.25;
         [button mas_makeConstraints:^(MASConstraintMaker *make) {
             
             if (lastItem) {
-                make.leading.equalTo(lastItem.mas_trailing).offset(20*kHorScale);
+                make.leading.equalTo(lastItem.mas_trailing).offset(20*[SACardAssistKit cardFrame].width/345.0);
             }else{
                 make.leading.mas_equalTo(0);
             }
@@ -449,8 +445,8 @@ static CGFloat kAnimationDuration = 0.25;
             [self.subTitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
                 
                 make.centerX.mas_equalTo(0);
-                make.top.equalTo(self.titleLabel.mas_bottom).offset(2.5*kVerScale);
-                make.height.mas_equalTo(12*kVerScale);
+                make.top.equalTo(self.titleLabel.mas_bottom).offset(2.5*[SACardAssistKit cardFrame].height/517.5);
+                make.height.mas_equalTo(12*[SACardAssistKit cardFrame].height/517.5);
             }];
         }else{
             self.subTitleLabel.hidden = NO;

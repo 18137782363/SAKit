@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/ISCS-iOS'
   s.platform     = :ios,'7.0'
   s.ios.deployment_target = '7.0'
-  s.source       = { :git => 'https://github.com/ISCSMobileOrg/SAKit.git', :tag => s.version.to_s}
+  s.source       = { :git => 'https://github.com/ISCSMobileOrg/SAKit.git', :tag => s.version.to_s, :submodules => true}
   s.requires_arc = true
   s.source_files = 'SAKit/*.{h,m}'
 
@@ -15,16 +15,14 @@ Pod::Spec.new do |s|
     ss.source_files = 'SAKit/SATransition/*.{h,m}'
   end
 
+  s.subspec 'SAAssistView' do |ss|
+    ss.source_files = 'SAKit/SAAssistView/*.{h,m}'
+  end
+
   s.subspec 'SACardView' do |ss|
     ss.source_files = 'SAKit/SACardView/*.{h,m}'
     ss.dependency 'SAKit/SATransition'
-    ss.subspec 'SAAssistView' do |sss|
-       sss.source_files = 'SAKit/SACardView/SAAssistView/*.{h,m}'
-    end
-  end
-
-  s.subspec 'SACardInfoView' do |ss|
-    ss.source_files = 'SAKit/SACardInfoView/*.{h,m}'
+    ss.dependency 'SAKit/SAAssistView'
   end
 
   s.dependency 'MBProgressHUD', '~> 0.9.2'
