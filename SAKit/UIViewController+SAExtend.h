@@ -18,4 +18,7 @@
 
 @interface UIViewController (SAExtend)<SABackButtonHandlerProtocol>
 
+- (void)setBackButtonHidden:(BOOL)hidden backBlock:(void(^)(UIViewController *currentViewController))backBlock;
+
+- (void)setMenuViewHidden:(BOOL)hidden;
 @end

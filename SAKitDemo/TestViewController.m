@@ -7,8 +7,11 @@
 //
 
 #import "TestViewController.h"
-
-@interface TestViewController ()
+#import "SACardView.h"
+#import <Masonry/Masonry.h>
+#import "SANavigationController.h"
+#import "UIViewController+SAExtend.h"
+@interface TestViewController ()<SACardViewDataSource,SACardViewDelegate>
 
 @end
 
@@ -17,6 +20,42 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor clearColor];
+    self.edgesForExtendedLayout=UIRectEdgeNone;
+    self.extendedLayoutIncludesOpaqueBars=NO;
+    self.modalPresentationCapturesStatusBarAppearance=NO;
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    SACardView *cardView = [[SACardView alloc] init];
+    [self.view addSubview:cardView];
+    cardView.cardViewType = SACardViewTypeSinglePage;
+    cardView.dataSource = self;
+    cardView.delegate = self;
+    
+    [cardView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+    [self setBackButtonHidden:NO backBlock:^(UIViewController *currentViewController) {
+        NSLog(@"TestViewController: %@",currentViewController);
+    }];
+}
+
+- (UIView *)frontViewInSingleCardView:(SACardView *)singleCardView{
+    UIView *view = [UIView new];
+    view.backgroundColor = [UIColor orangeColor];
+    return view;
+}
+
+- (BOOL)cardView:(SACardView *)cardView shouldShowBackViewAtIndex:(NSUInteger)index {
+    return NO;
+}
+//- (UIView *)headerViewInSingleCardView:(SACardSingleView *)singleCardView {
+//    UIView *view = [UIView new];
+//    view.backgroundColor = [UIColor blueColor];
+//    return view;
+//}
+
+- (void)didPressBackButtonInCardView:(SACardView *)cardView{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

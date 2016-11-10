@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (SAExtend)
+
+@property (nonatomic, assign) BOOL isAnimation;
+
 /****截屏****/
 -(UIImage *)imageForCutScreen;
 
@@ -23,4 +26,6 @@
 
 /****画线****/
 - (void)lineFromTop:(float)top left:(float)left toRight:(float)right lineColor:(UIColor *)color;
+
+- (void)startRotation;
 @end

@@ -7,6 +7,9 @@
 //
 
 #import "UIView+SAExtend.h"
+#import <objc/runtime.h>
+
+static char const *kIsAnimation = "isAnimation";
 
 @implementation UIView (SAExtend)
 
@@ -55,4 +58,26 @@
     layer.frame = CGRectMake(left, top, self.bounds.size.width - left - right, 0.5);
     [self.layer addSublayer:layer];
 }
+
+- (void)startRotation {
+    
+    CABasicAnimation* rotationAnimation;
+    rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+    rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 2.0 ];
+    rotationAnimation.duration = 2.5;
+    rotationAnimation.cumulative = YES;
+    rotationAnimation.repeatCount = MAXFLOAT;
+    [self.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
+}
+
+- (void)setIsAnimation:(BOOL)isAnimation {
+    
+    objc_setAssociatedObject(self, kIsAnimation, @(isAnimation), OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (BOOL)isAnimation {
+    BOOL isAnimation = [objc_getAssociatedObject(self, kIsAnimation) boolValue];
+    return isAnimation;
+}
+
 @end

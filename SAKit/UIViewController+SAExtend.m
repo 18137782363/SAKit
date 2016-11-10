@@ -7,9 +7,23 @@
 //
 
 #import "UIViewController+SAExtend.h"
+#import "SANavigationController.h"
 
 @implementation UIViewController (SAExtend)
+- (void)setBackButtonHidden:(BOOL)hidden backBlock:(void (^)(UIViewController *))backBlock{
+    if ([self.navigationController isKindOfClass:[SANavigationController class]]) {
+        SANavigationController *navController = (SANavigationController *)self.navigationController;
+        navController.hiddenBackButton = hidden;
+        navController.didSelectBackButtonBlock = backBlock;
+    }
+}
 
+- (void)setMenuViewHidden:(BOOL)hidden {
+    if ([self.navigationController isKindOfClass:[SANavigationController class]]) {
+        SANavigationController *navController = (SANavigationController *)self.navigationController;
+        navController.hiddenMenuView = hidden;
+    }
+}
 @end
 
 @implementation UINavigationController (ShouldPopOnBackButton)
